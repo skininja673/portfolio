@@ -796,7 +796,12 @@ blockquote {
     margin-top: 0.8rem;
 }
 .descriptionContainer li i {
+    /* border: 2px solid red; */
     display: inline;
+    font-size: 1rem;
+    /* color: #333333; */
+    color: #292929;
+    /* color: goldenrod; */
 }
 
 .descriptionContainer .cardLink {
@@ -806,10 +811,20 @@ blockquote {
     text-underline-offset: 2px;
     /* font-weight: 100; */
     color: inherit;
+    color: #333333;
+    /* color: #292929; */
+    font-size: inherit;
 }
 .linksContainer {
     /* border: 2px solid red; */
     margin-top: 1.5rem;
     display: flex;
     justify-content: space-between;
+}
+.popup-box .content .desc h4 {
+    /* color: red; */
+    /* border: 2px solid red; */
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.4rem;
 }
