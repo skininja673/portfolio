@@ -780,6 +780,9 @@ blockquote {
     /* border: 2px solid blue; */
     text-align: center;
 }
+.ion-social-sass:before {
+    color: inherit;
+}
 
 .st-soc img {
     /* border: 2px solid red; */
@@ -828,3 +831,5 @@ blockquote {
     text-transform: uppercase;
     margin-bottom: 1.4rem;
 }
+
+/* icon bg color: #F9F9F9 color: #292929 outline, ios16 filter,  svg, 44px, icons8.com*/
